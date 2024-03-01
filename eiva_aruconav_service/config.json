@@ -1,0 +1,22 @@
+{
+  "udp_connection": {
+    "ip": "127.0.0.1",
+    "port": 5151
+  },
+  "paths": {
+    "aruco_dictionary": "metadataDictionary.csv"
+  },
+  "camera_calibration": {
+    "focal_length_x": 1058.63567,
+    "focal_length_y": 1084.49837,
+    "focal_point_x": 999.972373,
+    "focal_point_y": 696.951007,
+    "distortion_k1": -0.03280136,
+    "distortion_k2": -0.01349124,
+    "distortion_k3": 0.04219963,
+    "distortion_p1": -0.00626765,
+    "distortion_p2": 0.00895283
+  },
+  "Verbosity": "HIGH",
+  "topicname": "mobula/imagestream"
+}

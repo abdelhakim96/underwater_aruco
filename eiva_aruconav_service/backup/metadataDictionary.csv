@@ -1,0 +1,18 @@
+# Georeferenced Aruco Marker Dictionary;;;;;;;;
+# Aruco ID : ranging from 0 - 999;;;;;;;;
+# Bit size : choose from 4;5;6;7. e.g. : 4 for 4x4 aruco markers;;;;;
+# Physical size : The physical dimensions of one side of the square marker.e.g : 0.3 for 0.3m x 0.3m marker;;;;;;;;
+# Lat; long: Latitude and Longitude in radians - WGS84 convention;;;;;;;
+# Depth: Depth in meters following NED(North; East; Down) frame same as WGS84 convention;;;;;;
+# Roll; Pitch; Heading in radians;;;;;;
+#;;;;;;;;
+# Example row :;;;;;;;;
+# 999;4;00.36;3.142;3.142;100;0,1625;0,1625;0,1625
+#;;;;;;;;
+# 1) Aruco Marker ID;# 2) Bit size[number of dims];# 3) Physical size [m];# 4) Lat [rad];# 5) Long [rad];# 6) Depth [m];# 7) Roll [rad];# 8) Pitch [rad];# 9) Heading [rad]
+#6, 4, 0.3, 0.952739733, -0.0216746192, 0, 3.14159265359, 0, 0.648578469
+7, 4, 0.3, 0.952739622, -0.0216735772, 0, 0, 0, 5.81194641
+16, 6, 0.3, 0.952739562, -0.0216737674, 0, 0, 0, 5.81194641
+13, 5, 0.3, 0.952739562, -0.0216737674, 0, 0, 0, 5.81194641
+13, 6, 0.3, 0.952739562, -0.0216737674, 0, 0, 0, 5.81194641
+#0, 7, 0.3, 0.952739623, -0.021674394, 0, 0, 0, 0.648578469
